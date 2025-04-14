@@ -4,6 +4,7 @@ import { useRef } from "react";
 import { assets } from "../../assets/assets";
 
 const Menu = () => {
+  
   const sideMenuRef = useRef();
 
   const openMenu = () => {
@@ -17,7 +18,7 @@ const Menu = () => {
   return (
     <>
       {/*--- boton --- */}
-      <button className="block md:hidden ml-3" onClick={openMenu}>
+      <button className="block md:hidden ml-3" aria-label="Open menu" onClick={openMenu}>
         <Image src={assets.menu_black} alt="menu" className="w-6" />
       </button>
       {/*--- menu --- */}
@@ -34,27 +35,27 @@ const Menu = () => {
         </div>
 
         <li>
-          <a href="#top" onClick={closeMenu}>
+          <a href="#top" onClick={closeMenu} aria-label="Go to Home section">
             Home
           </a>
         </li>
         <li>
-          <a href="#about" onClick={closeMenu}>
+          <a href="#about" onClick={closeMenu} aria-label="Go to About Me section">
             About Me
           </a>
         </li>
         <li>
-          <a href="#services" onClick={closeMenu}>
+          <a href="#services" onClick={closeMenu} aria-label="Go to Services section">
             Services
           </a>
         </li>
-        <li>
-          <a href="#work" onClick={closeMenu}>
+        <li>s
+          <a href="#work" onClick={closeMenu} aria-label="Go to My Work section">
             My Work
           </a>
         </li>
         <li>
-          <a href="#contact" onClick={closeMenu}>
+          <a href="#contact" onClick={closeMenu} aria-label="Go to Contact Me section">
             Contact Me
           </a>
         </li>
