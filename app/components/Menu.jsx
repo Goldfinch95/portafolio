@@ -49,7 +49,7 @@ const Menu = () => {
             Services
           </a>
         </li>
-        <li>s
+        <li>
           <a href="#work" onClick={closeMenu} aria-label="Go to My Work section">
             My Work
           </a>
