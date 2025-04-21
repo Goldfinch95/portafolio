@@ -1,5 +1,3 @@
-import { assets, workData } from "../../assets/assets";
-import Image from "next/image";
 import WorkList from "@/app/components/WorkList";
 import WorkInfo from "@/app/components/WorkInfo";
 import BtnMore from "@/app/components/BtnMore";
