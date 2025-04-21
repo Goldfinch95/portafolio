@@ -25,7 +25,8 @@
 @layer utilities{
   :hover.shadow-black{
     box-shadow: 4px 4px 0 theme(--color-neutral-950);
-  }
+    background-color: #fcf4ff
+  };
 }
 
 body {
