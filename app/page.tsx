@@ -3,7 +3,8 @@
 import Header from '@/app/components/Header';
 import Navbar from '@/app/components/Navbar';
 import About from '@/app/components/About';
-import Services from '@/app/components/Services'
+import Services from '@/app/components/Services';
+import Work from '@/app/components/Work'
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
     <Header />
     <About />
     <Services />
+    <Work />
     </>
   );
 }
