@@ -1,21 +1,30 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+@layer base {
+  :root {
+    --lightHover: #fcf4ff;  
+    --darkHover: #2a004a;
+    --darkTheme: #11001f;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --lightHover: #fcf4ff;  
+      --darkHover: #2a004a;
+      --darkTheme: #11001f;
+    }
+  }
 }
 
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --color-darkTheme: var(--background);
+  --color-darkHover: var(--foreground);
+  --color-lightHover: var(--lightHover); 
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+@layer utilities{
+  :hover.shadow-black{
+    box-shadow: 4px 4px 0 theme(--color-neutral-950);
   }
 }
 
