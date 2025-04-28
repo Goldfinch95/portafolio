@@ -24,7 +24,7 @@ const Menu = () => {
       {/*--- menu --- */}
       <ul
         ref={sideMenuRef}
-        className="flex md:hidden flex-col gap-4 py-20 px-10 fixed -right-64 top-0 bottom-0 w-50 z-50 h-screen bg-rose-50 transition duration-500"
+        className="flex md:hidden flex-col gap-4 py-20 px-10 fixed -right-64 top-0 bottom-0 w-48 z-50 h-screen bg-rose-50 transition duration-500"
       >
         <div className="absolute right-6 top-6" onClick={closeMenu}>
           <Image
@@ -35,27 +35,27 @@ const Menu = () => {
         </div>
 
         <li>
-          <a href="#top" onClick={closeMenu} aria-label="Go to Home section">
+          <a className="font-Ovo" href="#top" onClick={closeMenu} aria-label="Go to Home section">
             Home
           </a>
         </li>
         <li>
-          <a href="#about" onClick={closeMenu} aria-label="Go to About Me section">
+          <a className="font-Ovo" href="#about" onClick={closeMenu} aria-label="Go to About Me section">
             About Me
           </a>
         </li>
         <li>
-          <a href="#services" onClick={closeMenu} aria-label="Go to Services section">
+          <a className="font-Ovo" href="#services" onClick={closeMenu} aria-label="Go to Services section">
             Services
           </a>
         </li>
         <li>
-          <a href="#work" onClick={closeMenu} aria-label="Go to My Work section">
+          <a className="font-Ovo" href="#work" onClick={closeMenu} aria-label="Go to My Work section">
             My Work
           </a>
         </li>
         <li>
-          <a href="#contact" onClick={closeMenu} aria-label="Go to Contact Me section">
+          <a className="font-Ovo" href="#contact" onClick={closeMenu} aria-label="Go to Contact Me section">
             Contact Me
           </a>
         </li>

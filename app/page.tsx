@@ -15,9 +15,9 @@ export default function Home() {
     <Header />
     <About />
     <Services />
-    <Work />
+    {/*<Work />
     <Reach />
-    <Footer />
+    <Footer />*/}
     </>
   );
 }

@@ -6,7 +6,7 @@ const Buttons = () => {
     <>
       <a
         href="#contact"
-        className="px-10 py-3 border border-white rounded-full bg-black text-white flex items-center gap-2"
+        className="px-10 py-3 border border-white rounded-full bg-black text-white flex items-center gap-2 font-Outfit"
       >
         contact me
         <Image
@@ -18,7 +18,7 @@ const Buttons = () => {
       <a
         href="/sample-resume.pdf"
         download
-        className="px-10 py-3 border rounded-full border-gray-500 flex items-center gap-2"
+        className="px-10 py-3 border rounded-full border-gray-500 flex items-center gap-2 font-Outfit"
       >
         my resume
         <Image

@@ -8,7 +8,7 @@ const Logo = () => {
         <Image
           src={assets.logo}
           alt="logo"
-          className="w-28 cursor-pointer mr-14"
+          className="mr-14 w-28 cursor-pointer"
         />
       </a>
     </>
