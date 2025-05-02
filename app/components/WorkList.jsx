@@ -3,10 +3,10 @@ import Image from "next/image";
 
 const WorkList = () => {
   return (
-    <div className="grid grid-cols-auto-fit my-10 gap-5">
+    <div className="grid grid-cols-auto-fit my-10 gap-5 dark:text-black">
       {workData.map((project, index) => (
         <div
-          key={index} 
+          key={index}
           className="aspect-square bg-no-repeat bg-cover bg-center rounded-lg relative cursor-pointer group"
           style={{ backgroundImage: `url(${project.bgImage})` }}
         >

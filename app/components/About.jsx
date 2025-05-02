@@ -3,7 +3,7 @@ import Tools from "@/app/components/Tools";
 import AboutProfile from "@/app/components/AboutProfile";
 import AboutInfo from "@/app/components/AboutInfo";
 
-const About = () => {
+const About = ({ isDarkMode }) => {
   return (
     <div id="about" className="w-full px-[12%] py-10 scroll-mt-20">
       <h4 className="text-center mb-2 text-lg font-Ovo">Introduction</h4>
@@ -12,8 +12,10 @@ const About = () => {
         <AboutProfile />
         <div className="flex-1">
           <AboutInfo />
-          <Info />
-          <h4 className="my-6 text-gray-700 font-Ovo">Tools I use</h4>
+          <Info isDarkMode={isDarkMode} />
+          <h4 className="my-6 text-gray-700 font-Ovo dark:text-white/80">
+            Tools I use
+          </h4>
           <Tools />
         </div>
       </div>

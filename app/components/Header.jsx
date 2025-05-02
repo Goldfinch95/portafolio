@@ -1,5 +1,3 @@
-import Image from "next/image";
-import { assets } from "../../assets/assets";
 import Profile from "@/app/components/Profile";
 import Intro from '@/app/components/Intro';
 import Buttons from '@/app/components/Buttons'

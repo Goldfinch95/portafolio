@@ -1,5 +1,5 @@
 import ServiceList from "@/app/components/ServiceList";
-import ServiceInfo from "@/app/components/ServiceInfo"
+import ServiceInfo from "@/app/components/ServiceInfo";
 
 const Services = () => {
   return (
