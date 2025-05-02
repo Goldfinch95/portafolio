@@ -1,11 +1,18 @@
 import { assets, serviceData } from "../../assets/assets";
 import Image from "next/image";
+import { motion, scale } from "motion/react";
 
 const ServiceList = () => {
   return (
-    <div className="grid grid-cols-auto-fit gap-6 my-10">
+    <motion.div
+      initial={{ opacity: 0 }}
+      whileInView={{ opacity: 1 }}
+      transition={{ delay: 0.9, duration: 0.6 }}
+      className="grid grid-cols-auto-fit gap-6 my-10"
+    >
       {serviceData.map(({ icon, title, description, link }, index) => (
-        <div
+        <motion.div
+          whileHover={{ scale: 1.05 }}
           key={index}
           className="border border-gray-400 rounded-lg px-8 py-12 hover:shadow-black cursor-pointer hover:bg-lightHover hover:-translate-y-1 duration-500 dark:hover:bg-darkHover dark:hover:shadow-white"
         >
@@ -20,9 +27,9 @@ const ServiceList = () => {
             Read more{" "}
             <Image src={assets.right_arrow} alt="arrow" className="w-4" />
           </a>
-        </div>
+        </motion.div>
       ))}
-    </div>
+    </motion.div>
   );
 };
 

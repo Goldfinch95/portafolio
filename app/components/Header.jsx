@@ -1,6 +1,7 @@
 import Profile from "@/app/components/Profile";
-import Intro from '@/app/components/Intro';
-import Buttons from '@/app/components/Buttons'
+import Intro from "@/app/components/Intro";
+import Buttons from "@/app/components/Buttons";
+import { motion } from "motion/react";
 
 const Header = () => {
   return (

@@ -1,11 +1,19 @@
 import { assets, workData } from "../../assets/assets";
 import Image from "next/image";
+import { motion } from "motion/react";
 
 const WorkList = () => {
   return (
-    <div className="grid grid-cols-auto-fit my-10 gap-5 dark:text-black">
+    <motion.div
+      initial={{ opacity: 0 }}
+      whileInView={{ opacity: 1 }}
+      transition={{ delay: 0.9, duration: 0.6 }}
+      className="grid grid-cols-auto-fit my-10 gap-5 dark:text-black"
+    >
       {workData.map((project, index) => (
-        <div
+        <motion.div
+          whileHover={{ scale: 1.05 }}
+          transition={{ duration: 0.3 }}
           key={index}
           className="aspect-square bg-no-repeat bg-cover bg-center rounded-lg relative cursor-pointer group"
           style={{ backgroundImage: `url(${project.bgImage})` }}
@@ -19,9 +27,9 @@ const WorkList = () => {
               <Image src={assets.send_icon} alt="send icon" className="w-5" />
             </div>
           </div>
-        </div>
+        </motion.div>
       ))}
-    </div>
+    </motion.div>
   );
 };
 
