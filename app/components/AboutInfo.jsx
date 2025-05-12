@@ -1,13 +1,10 @@
-import React from 'react';
+import React from 'react'; 
 
 const AboutInfo = () => {
     return (
         <>
             <p className="mb-10 max-w-2xl font-Ovo">
-            I am an experienced Frontend Developer with over a decade of
-            professional expertise in the field. Throughout my career, I have
-            had the privilege of collaborating with prestigious organizations,
-            contribuiting to their success and growth.
+            Soy un desarrollador frontend con 3 años de experiencia, siempre en constante aprendizaje. A lo largo de mi carrera, he trabajado en proyectos desafiantes que me han permitido crecer y mejorar mis habilidades.
           </p>
         </>
     );

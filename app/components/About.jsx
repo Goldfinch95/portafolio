@@ -1,4 +1,4 @@
-import Info from "@/app/components/Info";
+import Info from "@/app/components/Info"; 
 import Tools from "@/app/components/Tools";
 import AboutProfile from "@/app/components/AboutProfile";
 import AboutInfo from "@/app/components/AboutInfo";
@@ -19,7 +19,7 @@ const About = ({ isDarkMode }) => {
         transition={{ duration: 0.5, delay: 0.3 }}
         className="text-center mb-2 text-lg font-Ovo"
       >
-        Introduction
+        Introducción
       </motion.h4>
       <motion.h2
         initial={{ opacity: 0, y: -20 }}
@@ -27,7 +27,7 @@ const About = ({ isDarkMode }) => {
         transition={{ duration: 0.5, delay: 0.5 }}
         className="text-center text-5xl font-Ovo"
       >
-        About me
+        Acerca de mí
       </motion.h2>
       <motion.div
         initial={{ opacity: 0 }}
@@ -50,7 +50,7 @@ const About = ({ isDarkMode }) => {
             transition={{ delay: 1.3, duration: 0.5 }}
             className="my-6 text-gray-700 font-Ovo dark:text-white/80"
           >
-            Tools I use
+            Herramientas que utilizo
           </motion.h4>
           <Tools />
         </motion.div>
@@ -60,3 +60,4 @@ const About = ({ isDarkMode }) => {
 };
 
 export default About;
+
