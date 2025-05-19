@@ -77,39 +77,57 @@ export const assets = {
 };
 
 export const workData = [
-    {
-        title: 'Frontend project',
-        description: 'Web Design',
-        bgImage: '/work-1.png',
-    },
-    {
-        title: 'Geo based app',
-        description: 'Mobile App',
-        bgImage: '/work-2.png',
-    },
-    {
-        title: 'Photography site',
-        description: 'Web Design',
-        bgImage: '/work-3.png',
-    },
-    {
-        title: 'UI/UX designing',
-        description: 'UI/UX Design',
-        bgImage: '/work-4.png',
-    },
-]
+  {
+    title: 'Proyecto frontend',
+    description: 'Diseño web',
+    bgImage: '/work-1.png',
+  },
+  {
+    title: 'App de geolocalización',
+    description: 'Aplicación móvil',
+    bgImage: '/work-2.png',
+  },
+  {
+    title: 'Sitio de fotografía',
+    description: 'Diseño web',
+    bgImage: '/work-3.png',
+  },
+  {
+    title: 'Diseño UI/UX',
+    description: 'Diseño de interfaz',
+    bgImage: '/work-4.png',
+  },
+];
+
 
 export const serviceData = [
-    { icon: assets.web_icon, title: 'Web design', description: 'Web development is the process of building, programming...', link: '' },
-    { icon: assets.mobile_icon, title: 'Mobile app', description: 'Mobile app development involves creating software for mobile devices...', link: '' },
-    { icon: assets.ui_icon, title: 'UI/UX design', description: 'UI/UX design focuses on creating a seamless user experience...', link: '' },
-    { icon: assets.graphics_icon, title: 'Graphics design', description: 'Creative design solutions to enhance visual communication...', link: '' },
-]
+  {
+    icon: assets.web_icon,
+    title: 'Diseño web',
+    description: 'El desarrollo web es el proceso de construir, programar y mantener sitios web funcionales y atractivos.',
+  },
+  {
+    icon: assets.mobile_icon,
+    title: 'Aplicaciones móviles',
+    description: 'El desarrollo de apps móviles implica crear software optimizado para dispositivos móviles como smartphones y tablets.',
+  },
+  {
+    icon: assets.ui_icon,
+    title: 'Diseño UI/UX',
+    description: 'El diseño UI/UX se enfoca en crear experiencias de usuario intuitivas, eficientes y visualmente agradables.',
+  },
+  {
+    icon: assets.graphics_icon,
+    title: 'Diseño gráfico',
+    description: 'Soluciones creativas de diseño para mejorar la comunicación visual y reforzar la identidad de marca.',
+  }
+];
+
 
 export const infoList = [
-    { icon: assets.code_icon, iconDark: assets.code_icon_dark, title: 'Lenguajes', description: 'HTML, CSS, JavaScript, TypeScript' },
-    { icon: assets.edu_icon, iconDark: assets.edu_icon_dark, title: 'Education', description: 'B.Tech in Computer Science' },
-    { icon: assets.project_icon, iconDark: assets.project_icon_dark, title: 'Projects', description: 'Built more than 5 projects' }
+    { icon: assets.code_icon, iconDark: assets.code_icon_dark, title: 'Lenguajes', description: 'HTML · CSS · JavaScript · TypeScript' },
+    /*{ icon: assets.edu_icon, iconDark: assets.edu_icon_dark, title: 'Education', description: 'B.Tech in Computer Science' },*/
+    { icon: assets.project_icon, iconDark: assets.project_icon_dark, title: 'Proyectos', description: 'He construido más de 5 proyectos' }
 ];
 
 export const toolsData = [

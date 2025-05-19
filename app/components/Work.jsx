@@ -18,7 +18,7 @@ const Work = ({ isDarkMode }) => {
         transition={{ delay: 0.3, duration: 0.5 }}
         className="text-center mb-2 text-lg font-Ovo"
       >
-        My portfolio
+        Mi portafolio
       </motion.h4>
       <motion.h2
         initial={{ y: -20, opacity: 0 }}
@@ -26,7 +26,7 @@ const Work = ({ isDarkMode }) => {
         transition={{ delay: 0.5, duration: 0.5 }}
         className="text-center text-5xl font-Ovo"
       >
-        My latest work
+        Mis últimos proyectos
       </motion.h2>
       <WorkInfo />
       <WorkList />
@@ -36,3 +36,4 @@ const Work = ({ isDarkMode }) => {
 };
 
 export default Work;
+
