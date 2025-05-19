@@ -5,7 +5,6 @@ import Navbar from "@/app/components/Navbar";
 import About from "@/app/components/About";
 import Services from "@/app/components/Services";
 import Work from "@/app/components/Work";
-import Reach from "@/app/components/Reach";
 import Footer from "@/app/components/Footer";
 import { useEffect, useState } from "react";
 
