@@ -81,16 +81,6 @@ const Menu = ({ isDarkMode }) => {
             My Work
           </a>
         </li>
-        <li>
-          <a
-            className="font-Ovo"
-            href="#contact"
-            onClick={closeMenu}
-            aria-label="Go to Contact Me section"
-          >
-            Contact Me
-          </a>
-        </li>
       </ul>
     </>
   );
