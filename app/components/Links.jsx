@@ -17,11 +17,6 @@ const Links = () => {
             LinkedIn
           </a>
         </li>
-        <li>
-          <a target="_blank" href="https://x.com/Facu_Vila">
-            Twitter
-          </a>
-        </li>
       </ul>
     </>
   );

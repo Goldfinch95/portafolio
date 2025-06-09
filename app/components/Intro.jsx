@@ -11,7 +11,7 @@ const Intro = () => {
   transition={{ duration: 0.6, delay: 0.3 }}
   className="flex items-end gap-2 text-xl md:text-2xl mb-3 font-Ovo"
 >
-  ¡Hola! Soy Facundo Vila{" "}
+  ¡Hola! Soy Goldfinch{" "}
   <Image
     src={assets.hand_icon}
     alt="saludo"
@@ -32,7 +32,7 @@ const Intro = () => {
   transition={{ duration: 0.6, delay: 0.7 }}
   className="max-w-2xl mx-auto font-Ovo"
 >
-  Con base en Buenos Aires, Argentina, tengo 3 años de experiencia creando interfaces modernas y funcionales.
+  Soy de Buenos Aires, Argentina, tengo 3 años de experiencia creando interfaces modernas y funcionales.
 </motion.p>
 
     </>
