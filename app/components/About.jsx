@@ -40,7 +40,7 @@ const About = ({ isDarkMode }) => {
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
           transition={{ duration: 0.6, delay: 0.8 }}
-          className="flex-1"
+          className="flex-1 w-full"
         >
           <AboutInfo />
           <Info isDarkMode={isDarkMode} />
